@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #000;
+}
+
+/* Sidebar */
+.sidebar {
+  border-right: 1px solid #ddd;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 6px 0;
+}
+.sidebar a:hover {
+  color: #555;
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
+
+/* Feed image */
+.feed-img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border: 1px solid #ddd;
+}
